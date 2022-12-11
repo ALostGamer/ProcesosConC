@@ -1,0 +1,7 @@
+EjercicioA:
+  Crear 2 procesos hermanos, (hijos del mismo proceso padre) y,obligar que esperen ambos unos aproximados 10 segundos,
+  después de esto terminar cada uno de los procesos (los dos procesos hermanos y el proceso padre).
+  
+Lo ideal en tiempo de ejecución serían 10 segundos de tiempo, cuanto más se acerque uno a este tiempo mejor realizado estará el programa.
+Evitar los procesos zombies o procesos hijo sin padre.
+Mostrar un mensaje indicativo cuando cada proceso finaliza su ejecución, así identificar cuando finaliza la ejecuci
