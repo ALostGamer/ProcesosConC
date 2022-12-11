@@ -4,4 +4,4 @@ EjercicioA:
   
 Lo ideal en tiempo de ejecución serían 10 segundos de tiempo, cuanto más se acerque uno a este tiempo mejor realizado estará el programa.
 Evitar los procesos zombies o procesos hijo sin padre.
-Mostrar un mensaje indicativo cuando cada proceso finaliza su ejecución, así identificar cuando finaliza la ejecuci
+Mostrar un mensaje indicativo cuando cada proceso finaliza su ejecución, así identificar cuando finaliza la ejecución.
