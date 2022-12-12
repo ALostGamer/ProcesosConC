@@ -1,0 +1,24 @@
+Ejercicio1C:
+  Crear 1 proceso hijo de un proceso padre y realizar una comunicación por medio de una (o varias) tuberia(s),
+  enviar como mensaje en el documento de transmisión uno que el usuario elija a su gusto, este proceso deberá repetirse
+  un total de 10 veces en las cuales los procesos vayan alternándose entre sí para leer y escribir. El usuario puede crear
+  tantas tuberías como crea conveniente.
+  
+  
+El usuario puede elegir quien empieza envíando el mensaje y quien lo recibe (padre --> hijo o hijo --> padre)
+El usuario puede elegir que mensaje transmitir por el documento.
+Lo ideal sería que durante cada bucle siempre que un proceso escriba el otro lea y se vayan intercambiando las posiciones entre sí.
+En total deberán ser 10 ejecuciones por parte de cada uno de los procesos (10 ejecuciones del padre y 10 ejecuciones del hijo).
+
+Mostrar un mensaje indicativo de que el proceso padre o hijo ha realizado la lectura o escritura (lo que mejor convenga).
+Preferiblemente mostrar por consola el mensaje que cada proceso lee y escribe cada vez.
+
+Evitar los procesos zombies o procesos hijo sin padre.
+Mostrar un mensaje indicativo cuando cada proceso finaliza su ejecución, así identificar cuando finaliza la ejecución.
+
+AMPLIACIÓN:
+  Ejercicio2C:
+    Crear 1 proceso hijo de un proceso padre y realizar una comunicación por medio de una (o varias) tuberia(s),
+    enviar como mensaje en el documento de transmisión en número de la ejecución en bucle que se está llevando a cabo en ese turno,
+    recordamos que son un total de 10 ejecuciones por cada proceso y que deben alternárse entre sí para leer y escribir. El
+    usuario puede crear tantas tuberías como crea conveniente.
