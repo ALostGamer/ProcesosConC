@@ -1,0 +1,15 @@
+EjercicioB:
+  Crear 1 proceso hijo de un proceso padre y realizar una comunicación por medio de un documento de texto
+  (para este caso no haremos uso aún de las tuberias o pipes), enviar como mensaje en el documento de transmisión
+  un numero aleatorio generado distinto para cada una de las ejecuciones que se realicen del archivo ejecutable.
+  
+El usuario puede elegir quien envía el mensaje y quien lo recibe (padre --> hijo o hijo --> padre)
+El usuario puede elegir que mensaje transmitir por el documento.
+Lo ideal sería que cada ejecución introduzca un nuevo número aleatorio al documento de transmisión de mensajes.
+Preferiblemente dejar eliminado el documento empleado para la transmisión después de efectuar la mencionada transmisión.
+
+Mostrar un mensaje indicativo de que el proceso padre o hijo ha realizado la lectura o escritura (lo que mejor convenga).
+Preferiblemente mostrar por consola el número aleatorio generado tanto cuando se escribe como cuando se lee, comprobando así que es el mismo número.
+
+Evitar los procesos zombies o procesos hijo sin padre.
+Mostrar un mensaje indicativo cuando cada proceso finaliza su ejecución, así identificar cuando finaliza la ejecución.
