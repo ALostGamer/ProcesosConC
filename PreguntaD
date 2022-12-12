@@ -1,0 +1,15 @@
+EjercicioD:
+  Crear 1 proceso hijo de un proceso padre y mantener ambos a la escucha de señales que el usuario envíe por la propia consola,
+  las señales que deberán escuchar serán la SIGUSR1 [kill(ppid,SIGUSR1);] y la SIGUSR2 [kill(ppid,SIGUSR2);].
+  Cuando uno de los dos procesos recibe la señal SIGUSR1, solo menciona por medio de un mensaje en la consola que le llegó la señal.
+  Cuando uno de los dos procesos recibe la señal SIGUSR2, menciona por medio de un mensaje en la consola que le llegó la señal y,
+  además terminará su proceso de ejecución avisándolo también.
+  Los procesos enviarán números aleatorios consecutivamente y, en caso de los números enviados corresponder a una de las dos señales
+  SIGUSR1 (10) y SIGUSR2 (12), realizarán lo correspondiente como si el propio usuario hubiera enviado la correspondiente señal.
+  
+La espera entre cada número generado por cada proceso será de 4 segundos (cada 4 segundos el proceso genera y envía un nuevo número aleatorio.
+Es preferible que el número generado sea entre 100 y 0.
+Es preferible mostrar el número generado por consola.
+
+Evitar los procesos zombies o procesos hijo sin padre.
+Mostrar un mensaje indicativo cuando cada proceso finaliza su ejecución, así identificar cuando finaliza la ejecución.
